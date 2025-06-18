@@ -10,11 +10,16 @@ function Counter() {
   const decrementCount = () => {
     setCount(count - 1);
   };
+
+  const resetCount = () => {
+    setCount(0);
+  };
   return (
     <div className = "counter">
       <p>Count = {count}</p> 
       <button onClick={incrementCount}>Increment</button>
       <button onMouseOver={decrementCount}>Decrement</button>
+      <button onClick={resetCount}>Reset</button>
     </div>
   );
 }
