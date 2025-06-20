@@ -15,10 +15,10 @@ import {
 // import Contact from "./components/Routing/Contact.js";
 // import Home from "./components/EXP9/comps/Home/Home";
 
-import Home from "./components/EXP10/comps/Home";
-import About from "./components/EXP10/comps/About";
-import Contact from "./components/EXP10/comps/Contact";
-import Navbar from "./components/EXP10/comps/Navbar";
+import Home from "./components/EXP10/Home";
+import About from "./components/EXP10/About";
+import Contact from "./components/EXP10/Contact";
+import Navbar from "./components/EXP10/Navbar";
 
 // function MainApp() {
 //   const { user } = useContext(AuthContext);
